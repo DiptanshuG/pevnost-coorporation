@@ -393,6 +393,12 @@ section {
   margin-right: 6px;
 }
 
+@media (max-width: 767px) {
+  .header .logo img {
+    max-width: 200px; /* Adjust the max-width as needed */
+  }
+}
+
 .header .logo h1 {
   font-size: 30px;
   font-weight: 700;

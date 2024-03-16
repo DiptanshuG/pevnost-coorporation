@@ -8,8 +8,8 @@ const Carousel = () => {
   return (
     <>
       <section id="hero" className="hero d-flex">
-        <img className="shape" src={""} alt="#" />
-        <div className="container">
+        {/* <img className="shape" src={""} alt="#" /> */}
+        <div className="container mt-5">
           <div
             className="row align-items-center"
             data-aos="fade-up"

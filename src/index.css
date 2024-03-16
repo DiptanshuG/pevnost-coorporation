@@ -542,7 +542,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(21, 91, 213, 0.9);
+    background: #905E26;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;

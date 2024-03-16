@@ -1,8 +1,7 @@
 import React from "react";
-import footerLogo from '../img/sym-logo.svg'
+import footerLogo from "../img2/logo.png";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-
 
 const Footer = () => {
   return (
@@ -15,86 +14,69 @@ const Footer = () => {
                 <Link to="/" className="logo d-flex align-items-center">
                   <img src={footerLogo} alt="" title="" />
                 </Link>
-                <p>
-                  We are a global leader in Telcom VAS, offer Services across
-                  Educational Content, Entertainment Content, Games and sports
+                <p className="text-white">
+                  Pevnost Corporation Pvt. Ltd is dedicated to providing
+                  high-quality accounting and tech services. Founded by
+                  Chiranjeev Chaturvedi and Vishakha Chaturvedi, we aim to
+                  deliver excellence in all our endeavors.
                 </p>
-                <div className="social-links d-flex  mt-3">
-                  <Link to="/" className="twitter">
-                    <i className="bi bi-twitter"></i>
-                  </Link>
-
-                  <Link to="/" className="facebook">
-                    <i className="bi bi-facebook"></i>
-                  </Link>
-                  
-                  <Link to ="https://www.linkedin.com/company/symbiotic-infotech-pvt-ltd/" className="linkedin">
-                    <i className="bi bi-linkedin"></i>
-                  </Link>
-                </div>
               </div>
               <div className="col-lg-2 col-6 footer-links">
-                <h4>Useful Links</h4>
+                <h4 className="text-white">Useful Links</h4>
                 <ul>
                   <li>
-                    <i className="bi bi-dash"></i>
-                    <Link to ="/">Home</Link>
+                    <i className="bi bi-dash text-white"></i>
+                    <Link to="/" className="text-white">Home</Link>
                   </li>
                   <li>
-                    <i className="bi bi-dash"></i>
-                    <Link to="/about">About Us</Link>
+                    <i className="bi bi-dash text-white"></i>
+                    <Link to="/about" className="text-white">About Us</Link>
                   </li>
                   <li>
-                    <i className="bi bi-dash"></i>
-                    <Link to ="/services">Services</Link>
+                    <i className="bi bi-dash text-white"></i>
+                    <Link to="/services" className="text-white">Services</Link>
                   </li>
+
                   <li>
-                    <i className="bi bi-dash"></i>
-                    <Link to="/careers">Careers</Link>
-                  </li>
-                  <li>
-                    <i className="bi bi-dash"></i>
-                    <Link to ="/contact">Contact Us</Link>
+                    <i className="bi bi-dash text-white"></i>
+                    <Link to="/contact" className="text-white">Contact Us</Link>
                   </li>
                 </ul>
               </div>
               <div className="col-lg-3 col-6 footer-links">
-                <h4>Our Services</h4>
+                <h4 className="text-white">Our Services</h4>
                 <ul>
                   <li>
-                    <i className="bi bi-dash"></i>
-                    <HashLink smooth to ="/services/#Educational-content">
-                      Educational Content
+                    <i className="bi bi-dash text-white"></i>
+                    <HashLink smooth to="#" className="text-white">
+                      Accounting
                     </HashLink>
                   </li>
                   <li>
-                    <i className="bi bi-dash"></i>
-                    <HashLink smooth to ="/services/#Entertainment-content">
-                      Entertainment Content
+                    <i className="bi bi-dash text-white"></i>
+                    <HashLink smooth to="#" className="text-white">
+                      Tech Services
                     </HashLink>
                   </li>
                   <li>
-                    <i className="bi bi-dash"></i>
-                    <HashLink smooth to="/services/#Games">Games</HashLink>
-                  </li>
-                  <li>
-                    <i className="bi bi-dash"></i>
-                    <HashLink smooth to ="/services/#Sports">Sports</HashLink>
+                    <i className="bi bi-dash text-white"></i>
+                    <HashLink smooth to="#" className="text-white">
+                      Financial Audit and Legal Aids
+                    </HashLink>
                   </li>
                 </ul>
               </div>
               <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                <h4>Contact Us</h4>
-                <address>
-                 
-                  #1,Sundaram Illam, <br /> Chellamal Street, <br /> Shenoy
-                  Nagar, Chennai - 600 030. <br />
+                <h4 className="text-white">Contact Us</h4>
+                <address className="text-white">
+                  42 SDX Minal Residency, <br /> Bhopal, Madhya Pradesh, India -
+                  462023 <br />
                   <br />
-                  <strong>Phone:</strong> +91 - 44 - 4208 2102 <br />
+                  <strong>Phone:</strong> +91 9302955692 <br />
                   <strong>Email: </strong>
-                  <a href="mailto:info@symbioticinfo.com">                  
-                     info@symbioticinfo.com
-                  </a> 
+                  <a href="mailto:pevnostcorporation@gmail.com" className="text-white">
+                    pevnostcorporation@gmail.com
+                  </a>
                   <br />
                 </address>
               </div>
@@ -104,22 +86,15 @@ const Footer = () => {
         <div className="footer-legal">
           <div className="container">
             <div className="copyright">
-              <span id="copyright">
-                <script>
-                  document.getElementById('copyright').appendChild(document.createTextNode(new
-                  Date().getFullYear()) )
-                </script>
-              </span>
-              &copy;  Copyright
-              <span> Symbiotic Infotech Pvt. Ltd </span>. All Rights Reserved
+              <span id="copyright">{new Date().getFullYear()}</span>
+              &copy; Copyright
+              <span> Pevnost Corporation Pvt. Ltd</span>. All Rights Reserved
             </div>
           </div>
         </div>
       </footer>
-      
     </>
-  )
-  
+  );
 };
 
 export default Footer;

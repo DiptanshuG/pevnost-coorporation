@@ -27,9 +27,7 @@ const Navbar = () => {
             <li>
             <Link to ="/services"  className={splitLocation[1] === "services" ? "active" : ""}> Services</Link>
             </li>
-            <li>
-            <Link to ="/careers"  className={splitLocation[1] === "careers" ? "active" : ""}> Careers</Link>
-            </li>
+          
             <li>
             <Link to ="/contact"  className={splitLocation[1] === "contact" ? "active" : ""}> Contact Us</Link>
             </li>

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/sym-logo-inverse.svg";
+import logo from "../img2/logo.png";
 //import Navbar from "./Navbar";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -54,8 +54,8 @@ const InnerHeader = () => {
           <Link to="/" className="logo" onClick={toTop}>
             <img
               src={logo}
-              alt="Symbiotic Info tech Pvt. Ltd"
-              title="Symbiotic Info tech Pvt. Ltd"
+              alt="pevnost coorporation Pvt. Ltd"
+              title="Pevnost coorporation tech Pvt. Ltd"
             />
           </Link>
           <span  onClick={mobilemenu}>  
@@ -73,9 +73,6 @@ const InnerHeader = () => {
             </li>
             <li>
             <Link to ="/services"  className={splitLocation[1] === "services" ? "active" : ""}> Services</Link>
-            </li>
-            <li>
-            <Link to ="/careers"  className={splitLocation[1] === "careers" ? "active" : ""}> Careers</Link>
             </li>
             <li>
             <Link to ="/contact"  className={splitLocation[1] === "contact" ? "active" : ""}> Contact Us</Link>

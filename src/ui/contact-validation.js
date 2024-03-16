@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import InnerHeaderBanner from "../components/InnerHeaderBanner";
 import InnerHeader from "../components/InnerHeader";
 import Footer from "../components/Footer";
-import contactHeader from "../img/contact-header.jpg";
 
 const Contact = () => {
 
@@ -82,7 +81,7 @@ const Contact = () => {
   return (
     <>
       <InnerHeader />
-      <InnerHeaderBanner name={"Contact Us"} img={contactHeader} />
+      <InnerHeaderBanner name={"Contact Us"} img={""} />
       <main id="main">      
         <section id="contact" className="contact">
           <div className="container position-relative" data-aos="fade-up">
@@ -112,8 +111,8 @@ const Contact = () => {
                   <div>
                     <h4>Email:</h4>
                     <p>
-                      <a href="mailto:info@symbioticinfo.com">
-                        info@symbioticinfo.com
+                      <a href="mailto:info@Pevnostinfo.com">
+                        info@Pevnostinfo.com
                       </a>
                     </p>
                   </div>

@@ -19,70 +19,70 @@ const About = () => {
       <main id="main">
         <section id="about" className="about">
           <div className="container" data-aos="fade-up"></div>
-        </section>
 
-        <div
-          id="vision"
-          className="vision aos-init"
-          data-aos="fade-up"
-          data-aos-delay="300"
-        >
-          <div className="container">
-            <div className="row gy-4">
-              <div className="col-lg-4 aos-init">
-                <div className="card-item">
-                  <div className="row">
-                    <div className="col-xl-12">
-                      <div className="card-body">
-                        <h4 className="card-title">Accounting Services</h4>
-                        <p>
-                          We specialize in a wide range of accounting services,
-                          including SAP - FICO, BAAN, ISCALA, CMS, ORACAL, and
-                          Tally, ensuring meticulous financial management for
-                          our clients.
-                        </p>
+          <div
+            id="vision"
+            className="vision aos-init"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div className="container">
+              <div className="row gy-4">
+                <div className="col-lg-4 aos-init">
+                  <div className="card-item">
+                    <div className="row">
+                      <div className="col-xl-12">
+                        <div className="card-body">
+                          <h4 className="card-title">Accounting Services</h4>
+                          <p>
+                            We specialize in a wide range of accounting
+                            services, including SAP - FICO, BAAN, ISCALA, CMS,
+                            ORACAL, and Tally, ensuring meticulous financial
+                            management for our clients.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="col-lg-4 aos-init">
-                <div className="card-item">
-                  <div className="row">
-                    <div className="col-xl-12">
-                      <div className="card-body">
-                        <h4 className="card-title">Tech Services</h4>
-                        <p>
-                          Our tech services encompass website design and digital
-                          marketing solutions, providing innovative and
-                          effective online strategies to enhance your digital
-                          presence.
-                        </p>
+                <div className="col-lg-4 aos-init">
+                  <div className="card-item">
+                    <div className="row">
+                      <div className="col-xl-12">
+                        <div className="card-body">
+                          <h4 className="card-title">Tech Services</h4>
+                          <p>
+                            Our tech services encompass website design and
+                            digital marketing solutions, providing innovative
+                            and effective online strategies to enhance your
+                            digital presence.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <div
-                className="col-lg-4 aos-init"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="card-item">
-                  <div className="row">
-                    <div className="col-xl-12">
-                      <div className="card-body">
-                        <h4 className="card-title">
-                          Financial Audit and Legal Aids
-                        </h4>
-                        <p>
-                          Additionally, we offer comprehensive financial audit
-                          and legal aid services, ensuring regulatory compliance
-                          and providing invaluable support to our clients in
-                          navigating legal complexities.
-                        </p>
+                <div
+                  className="col-lg-4 aos-init"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <div className="card-item">
+                    <div className="row">
+                      <div className="col-xl-12">
+                        <div className="card-body">
+                          <h4 className="card-title">
+                            Financial Audit and Legal Aids
+                          </h4>
+                          <p>
+                            Additionally, we offer comprehensive financial audit
+                            and legal aid services, ensuring regulatory
+                            compliance and providing invaluable support to our
+                            clients in navigating legal complexities.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -90,8 +90,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
-
+        </section>
         <section
           id="management"
           className="management light-bg aos-init"
@@ -113,7 +112,7 @@ const About = () => {
               <div className="col-md-2">
                 <div className="pic">
                   <img
-                  //   src={manag_photo1}
+                    //   src={manag_photo1}
                     className="img-fluid"
                     alt="Chiranjeev Chaturvedi"
                   />
@@ -136,7 +135,7 @@ const About = () => {
               <div className="col-md-2">
                 <div className="pic">
                   <img
-                  //   src={manag_photo2}
+                    //   src={manag_photo2}
                     className="img-fluid"
                     alt="Vishakha Chaturvedi"
                   />

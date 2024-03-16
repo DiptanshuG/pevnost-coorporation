@@ -395,7 +395,7 @@ section {
 
 @media (max-width: 767px) {
   .header .logo img {
-    max-width: 200px; /* Adjust the max-width as needed */
+    max-width: 200px; 
   }
 }
 

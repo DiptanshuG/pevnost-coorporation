@@ -1,6 +1,9 @@
 import React from "react";
-import logo from "../img2/logo.png";
+import logo from "../img2/Frame.svg"
+import logo2 from "../img2/logo.png"
 //import Navbar from "./Navbar";
+// import Bell from "~/images/bell.svg"
+
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom'

@@ -17,9 +17,10 @@ const Carousel = () => {
           >
             <div className="col-lg-7 col-md-12 col-12">
               <h2 data-aos="fade-up">
-                Streamlined accounting and expert financial/legal services for
-                your business.{" "}
+                Streamlined accounting, HR, and expert financial/legal services
+                for your business.
               </h2>
+
               <blockquote data-aos="fade-up" data-aos-delay="100">
                 <p>
                   At <strong className="">Pevnost</strong>, we understand the

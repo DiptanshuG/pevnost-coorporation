@@ -44,6 +44,13 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+            {/* Include the provided text here */}
+            <div style={{ textAlign: "center", marginTop: "30px", color: "#2b180d" }}>
+              <p>
+                Thank you for your interest in our company and services. We are happy to help. Please reach out to us, and we will ensure to deliver an optimized solution based on your business needs.
+              </p>
+            </div>
+            {/* End of provided text */}
           </div>
         </section>
       </main>

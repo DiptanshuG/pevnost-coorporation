@@ -13,13 +13,13 @@ const Service = () => {
         <section id="services-list" className="services-list">
           <div className="container" data-aos="fade-up">
             <div className="section-header">
-              <h2>
-                We are a{" "}
+              <h3 style={{ font: "bold" }}>
+                We are{" "}
                 <span style={{ color: "#155bd5" }}>Pevnost Corporation</span>,
                 offering services across Accounting (SAP - FICO, BAAN, ISCALA,
                 CMS, ORACAL, Tally), Tech services (website design, digital
                 marketing), and Financial audit and legal aids.
-              </h2>
+              </h3>
             </div>
 
             <div
@@ -76,8 +76,8 @@ const Service = () => {
                 <div>
                   <h4 className="title"> Tech Services </h4>
                   <p className="description">
-                    Our tech services include website design and digital
-                    marketing solutions tailored to your needs.
+                    Our tech services include website and App solutions tailored
+                    to your needs.
                   </p>
                 </div>
               </div>

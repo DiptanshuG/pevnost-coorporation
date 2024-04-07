@@ -13,10 +13,10 @@ export default function Carousel() {
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
-        // autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
         loop={true}
         pagination={{ clickable: true }}
-        navigation={true}
+        // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper w-100 h-100 flex-center-center"
         style={{ height: "100vh", width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}

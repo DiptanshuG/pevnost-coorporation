@@ -54,7 +54,7 @@ export default function Carousel() {
           </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide-with-animation" style={{ background: "url('https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat" }}>
+        <SwiperSlide className="swiper-slide-with-animation" style={{ background: "linear-gradient(rgb(0 0 0 / 40%), rgba(0, 0, 0, 0.5)) , url('https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat" }}>
         <div className="slide-content"> <div className="container mt-5 d-flex justify-content-center w-100 h-100" >
             <div
               className="row align-items-center"
@@ -87,7 +87,7 @@ export default function Carousel() {
           </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide-with-animation" style={{ background: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat" }}>
+        <SwiperSlide className="swiper-slide-with-animation" style={{ background: "linear-gradient(rgb(0 0 0 / 86%), rgba(0, 0, 0, 0.5)) ,url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat" }}>
         <div className="slide-content"> <div className="container mt-5 d-flex justify-content-center w-100 h-100" >
             <div
               className="row align-items-center"

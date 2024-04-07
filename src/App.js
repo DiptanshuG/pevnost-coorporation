@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import { lazy, Suspense } from "react";
+import "./App.css"
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Preloader from "./layout/Preloader";
 const Home = lazy(() => import("./ui/Home"));

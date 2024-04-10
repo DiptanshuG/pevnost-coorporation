@@ -16,9 +16,8 @@ const Service = () => {
               <h3 style={{ font: "bold" }}>
                 We are{" "}
                 <span style={{ color: "#155bd5" }}>Pevnost Corporation</span>,
-                offering services across Accounting (SAP - FICO, BAAN, ISCALA,
-                CMS, ORACAL, Tally), Tech services (website design, digital
-                marketing), and Financial audit and legal aids.
+                offering services across Accounting, Tech services (website
+                design, digital marketing), and Financial audit and legal aids.
               </h3>
             </div>
 
@@ -122,6 +121,38 @@ const Service = () => {
                     ensuring comprehensive support for your business needs.
                   </p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="services-list light-bg" id="Entertainment-content">
+          <div className="container" data-aos="fade-up">
+            <div className="row gy-5 align-items-center ">
+              <div
+                className="col-lg-7 col-md-6 service-item "
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div className="icon flex-shrink-0">
+                <i className="bi bi-people" style={{ color: "#d513a0" }}></i>
+
+                </div>
+                <div>
+                  <h4 className="title"> Consultancy Services </h4>
+                  <p className="description">
+                    Our consultancy services provide expert guidance and advice
+                    to help your business thrive in various aspects.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="col-lg-5 col-md-6 service-item order-first order-sm-last"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <img src={""} className="img-fluid" alt="" />
               </div>
             </div>
           </div>

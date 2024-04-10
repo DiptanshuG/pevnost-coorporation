@@ -4,6 +4,27 @@ import InnerHeader from "../components/InnerHeader";
 import Footer from "../components/Footer";
 
 const Contact = () => {
+  const infoItems = [
+    {
+      iconClass: "bi bi-geo-alt",
+      background: "#905E26",
+      title: "Location:",
+      text: "42 SDX Minal Residency, Bhopal, Madhya Pradesh, India - 462023",
+    },
+    {
+      iconClass: "bi bi-envelope",
+      background: "#905E26",
+      title: "Email:",
+      text: <a href="mailto:pevnostcorporation@gmail.com">pevnostcorporation@gmail.com</a>,
+    },
+    {
+      iconClass: "bi bi-phone",
+      background: "#905E26",
+      title: "Mobile:",
+      text: "+91 9302955692",
+    },
+  ];
+
   return (
     <>
       <InnerHeader />
@@ -16,41 +37,26 @@ const Contact = () => {
             </div>
 
             <div className="row gy-4">
-              <div className="col-12" data-aos="fade-up" data-aos-delay="100">
-                <div className="info-item d-flex flex-column flex-lg-row justify-content-lg-between">
-                  <div>
-                    <i className="bi bi-geo-alt" style={{ color: "white", background:"#905E26" }}></i>
+              {infoItems.map((item, index) => (
+                <div key={index} className="col-12" data-aos="fade-up" data-aos-delay={100 * (index + 1)}>
+                  <div className="info-item d-flex flex-column flex-lg-row justify-content-lg-between">
                     <div>
-                      <h4 style={{ color: "#2b180d" }}>Location:</h4>
-                      <p style={{ color: "#2b180d" }}>42 SDX Minal Residency, Bhopal, Madhya Pradesh, India - 462023</p>
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <i className="bi bi-envelope" style={{  color: "white" ,background:"#905E26" }}></i>
-                    <div>
-                      <h4 style={{ color: "#2b180d" }}>Email:</h4>
-                      <p style={{ color: "#2b180d" }}><a href="mailto:pevnostcorporation@gmail.com" style={{ color: "#2b180d" }}>pevnostcorporation@gmail.com</a></p>
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <i className="bi bi-phone" style={{ color: "white",background:"#905E26"  }}></i>
-                    <div>
-                      <h4 style={{ color: "#2b180d" }}>Mobile:</h4>
-                      <p style={{ color: "#2b180d" }}>+91 9302955692</p>
+                      <i className={item.iconClass} style={{ color: "white", background: item.background }}></i>
+                      <div>
+                        <h4 style={{ color: "#2b180d" }} className="my-2">{item.title}</h4>
+                        <p style={{ color: "#2b180d" }}>{item.text}</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              ))}
             </div>
-            {/* Include the provided text here */}
+
             <div style={{ textAlign: "center", marginTop: "30px", color: "#2b180d" }}>
               <p>
                 Thank you for your interest in our company and services. We are happy to help. Please reach out to us, and we will ensure to deliver an optimized solution based on your business needs.
               </p>
             </div>
-            {/* End of provided text */}
           </div>
         </section>
       </main>

@@ -28,10 +28,10 @@ const About = () => {
           >
             <div className="container">
               <div className="row gy-4">
-                <div className="col-lg-4 aos-init">
+                <div className="col-lg-6 aos-init">
                   <div className="card-item">
                     <div className="row">
-                      <div className="col-xl-12">
+                      <div className="col-xl-12 m-2">
                         <div className="card-body">
                           <h4 className="card-title">Accounting Services</h4>
                           <p>
@@ -46,7 +46,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-4 aos-init">
+                <div className="col-lg-6 aos-init">
                   <div className="card-item">
                     <div className="row">
                       <div className="col-xl-12">
@@ -63,9 +63,10 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-
+              </div>
+              <div className="row gy-4">
                 <div
-                  className="col-lg-4 aos-init"
+                  className="col-lg-6 aos-init"
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
@@ -81,6 +82,23 @@ const About = () => {
                             and legal aid services, ensuring regulatory
                             compliance and providing invaluable support to our
                             clients in navigating legal complexities.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 aos-init">
+                  <div className="card-item">
+                    <div className="row">
+                      <div className="col-xl-12">
+                        <div className="card-body">
+                          <h4 className="card-title">Consulting Services</h4>
+                          <p>
+                            Our consulting services cover a wide range of areas
+                            including digital marketing, HR, and more. We offer
+                            tailored solutions to meet your specific business
+                            needs.
                           </p>
                         </div>
                       </div>

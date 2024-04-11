@@ -4,6 +4,8 @@ import "../../node_modules/aos/dist/aos.css";
 import InnerHeaderBanner from "../components/InnerHeaderBanner";
 import InnerHeader from "../components/InnerHeader";
 import Footer from "../components/Footer";
+import vishakha from "../img2/founder1.png";
+import chiranjeev from "../img2/founded2.png";
 
 const About = () => {
   useEffect(() => {
@@ -130,7 +132,7 @@ const About = () => {
               <div className="col-md-2">
                 <div className="pic">
                   <img
-                    //   src={manag_photo1}
+                    src={chiranjeev}
                     className="img-fluid"
                     alt="Chiranjeev Chaturvedi"
                   />
@@ -153,7 +155,7 @@ const About = () => {
               <div className="col-md-2">
                 <div className="pic">
                   <img
-                    //   src={manag_photo2}
+                    src={vishakha}
                     className="img-fluid"
                     alt="Vishakha Chaturvedi"
                   />

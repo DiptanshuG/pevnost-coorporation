@@ -2892,3 +2892,32 @@ section {
   font-size: 13px;
   color: #2b180d;
 }
+.pic {
+  position: relative;
+}
+
+.pic::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  border-radius: 50%;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.pic:hover::after {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}

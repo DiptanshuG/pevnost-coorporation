@@ -16,8 +16,9 @@ const Service = () => {
               <h3 style={{ font: "bold" }}>
                 We are{" "}
                 <span style={{ color: "#155bd5" }}>Pevnost Corporation</span>,
-                offering services across Accounting, Tech services (website
-                design, digital marketing), and Financial audit and legal aids.
+                provides services across accounting,
+                tech services (website design, digital marketing), and
+                financial audit and legal aid.
               </h3>
             </div>
 

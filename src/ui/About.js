@@ -164,7 +164,7 @@ const About = () => {
               <div className="col-md-10">
                 <div className="member-info">
                   <h4>Vishakha Chaturvedi</h4>
-                  <span>Co-founder and Legal Expert</span>
+                  <span>Co-founder</span>
                   <p>
                     Vishakha is a seasoned entrepreneur with a focus on
                     technology services. With expertise in website design and

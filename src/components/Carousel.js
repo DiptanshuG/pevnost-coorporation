@@ -13,7 +13,7 @@ export default function Carousel() {
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
-        autoplay={{ delay: 2000, disableOnInteraction: false }}
+        autoplay={{ delay: 9000, disableOnInteraction: false }}
         loop={true}
         pagination={{ clickable: true }}
         // navigation={true}

@@ -144,9 +144,10 @@ const About = () => {
                   <span>Founder & Director</span>
                   <p>
                     Chiranjeev brings extensive expertise in accounting and
-                    finance to Pevnost Corporation. With a deep understanding of
-                    SAP, FICO, BAAN, ISCALA, CMS, ORACAL, and Tally, he ensures
-                    the highest standards in financial management.
+                    finance. With 8+ years of experience in leading accounting
+                    for high profile companies, he ensures the highest standards
+                    in financial management and consulting services for HR,
+                    website design and digital marketing.
                   </p>
                 </div>
               </div>
@@ -165,15 +166,12 @@ const About = () => {
                 <div className="member-info">
                   <h4>Vishakha Chaturvedi</h4>
                   <span>Co-founder</span>
+
                   <p>
-                    Vishakha is a seasoned entrepreneur with a focus on
-                    technology services. With expertise in website design and
-                    digital marketing, she leads Pevnost Corporation in
-                    providing cutting-edge solutions to clients.
-                  </p>
-                  <p>
-                    Additionally, the company offers financial audit and legal
-                    aid services, ensuring comprehensive support to its clients.
+                    Vishakha brings 5+ years of experience in accounting and
+                    helps lead finances for the firm. She brings unwavering
+                    dedication to client satisfaction align with expertise and
+                    set of accounting tools.
                   </p>
                 </div>
               </div>

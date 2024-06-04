@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/pevnost-coorporation/static/css/main.3745550b.css",
+    "main.js": "/pevnost-coorporation/static/js/main.86f5c62a.js",
+    "static/css/143.f1874335.chunk.css": "/pevnost-coorporation/static/css/143.f1874335.chunk.css",
+    "static/js/143.36865038.chunk.js": "/pevnost-coorporation/static/js/143.36865038.chunk.js",
+    "static/js/870.3c40f5eb.chunk.js": "/pevnost-coorporation/static/js/870.3c40f5eb.chunk.js",
+    "static/js/519.50812283.chunk.js": "/pevnost-coorporation/static/js/519.50812283.chunk.js",
+    "static/js/873.eb9d3126.chunk.js": "/pevnost-coorporation/static/js/873.eb9d3126.chunk.js",
+    "static/js/520.693e632d.chunk.js": "/pevnost-coorporation/static/js/520.693e632d.chunk.js",
+    "static/js/787.1ff6f84c.chunk.js": "/pevnost-coorporation/static/js/787.1ff6f84c.chunk.js",
+    "static/js/377.2daf9905.chunk.js": "/pevnost-coorporation/static/js/377.2daf9905.chunk.js",
+    "static/js/804.48c9e4a1.chunk.js": "/pevnost-coorporation/static/js/804.48c9e4a1.chunk.js",
+    "static/css/421.83571726.chunk.css": "/pevnost-coorporation/static/css/421.83571726.chunk.css",
+    "static/js/421.5113460e.chunk.js": "/pevnost-coorporation/static/js/421.5113460e.chunk.js",
+    "static/js/992.074f4167.chunk.js": "/pevnost-coorporation/static/js/992.074f4167.chunk.js",
+    "static/media/founded2.png": "/pevnost-coorporation/static/media/founded2.16aa6f4198ac066cf3dd.png",
+    "static/media/bootstrap-icons.woff?": "/pevnost-coorporation/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/founder1.png": "/pevnost-coorporation/static/media/founder1.7c5ee8dac1fa235c820c.png",
+    "static/media/bootstrap-icons.woff2?": "/pevnost-coorporation/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/logo.png": "/pevnost-coorporation/static/media/logo.6679adef4c50e54d1994.png",
+    "static/media/Frame.svg": "/pevnost-coorporation/static/media/Frame.971a9fcc9b358b65ebfe933eb76b5ebc.svg",
+    "index.html": "/pevnost-coorporation/index.html",
+    "main.3745550b.css.map": "/pevnost-coorporation/static/css/main.3745550b.css.map",
+    "main.86f5c62a.js.map": "/pevnost-coorporation/static/js/main.86f5c62a.js.map",
+    "143.f1874335.chunk.css.map": "/pevnost-coorporation/static/css/143.f1874335.chunk.css.map",
+    "143.36865038.chunk.js.map": "/pevnost-coorporation/static/js/143.36865038.chunk.js.map",
+    "870.3c40f5eb.chunk.js.map": "/pevnost-coorporation/static/js/870.3c40f5eb.chunk.js.map",
+    "519.50812283.chunk.js.map": "/pevnost-coorporation/static/js/519.50812283.chunk.js.map",
+    "873.eb9d3126.chunk.js.map": "/pevnost-coorporation/static/js/873.eb9d3126.chunk.js.map",
+    "520.693e632d.chunk.js.map": "/pevnost-coorporation/static/js/520.693e632d.chunk.js.map",
+    "787.1ff6f84c.chunk.js.map": "/pevnost-coorporation/static/js/787.1ff6f84c.chunk.js.map",
+    "377.2daf9905.chunk.js.map": "/pevnost-coorporation/static/js/377.2daf9905.chunk.js.map",
+    "804.48c9e4a1.chunk.js.map": "/pevnost-coorporation/static/js/804.48c9e4a1.chunk.js.map",
+    "421.83571726.chunk.css.map": "/pevnost-coorporation/static/css/421.83571726.chunk.css.map",
+    "421.5113460e.chunk.js.map": "/pevnost-coorporation/static/js/421.5113460e.chunk.js.map",
+    "992.074f4167.chunk.js.map": "/pevnost-coorporation/static/js/992.074f4167.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3745550b.css",
+    "static/js/main.86f5c62a.js"
+  ]
+}
